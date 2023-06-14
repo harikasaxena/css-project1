@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-image: url(spacerocket.jpg);
+    background-size: cover; */
+}
+
+nav {
+    background: whitesmoke;
+    height: 150px;
+    width: 100%;
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+    padding: 40px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 35px 75px;
+    font-size: large;
+    font: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+
+}
+
+a:hover{
+    background: lightsteelblue;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 150px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media(max-width:952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn{
+        display: block;
+    } 
+    ul {
+        position: fixed;
+        width: 100%;
+        height:100vh;
+        opacity: 0.5;
+        background: whitesmoke;
+        top:150px;
+        left: 0;
+        text-align: center;
+        transition: all .5s;
+        }   
+    nav ul li {
+        display: block;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover {
+        background: none;
+        color: lightslategray;
+    }
+}
+
+.sec {
+    opacity: 0.25; 
+    background-image: url(spacerocket.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    align-items: left;
+}
+
+div {
+    max-width: 200px;
+    color: black;
+    font-size: 80px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.divc {
+    margin-left: 30px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    color: white ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    max-width: 800px;
+}
+
+.pstyle {
+    /* margin-left: 30px; */
+    margin-left: 130px;
+    color: black;
+    font-family: sans-serif;
+    max-width: 1000px;
+    font-size: 30px;    
+}
+
+input[type=button] {
+    background-color: white;
+    color: black;
+    padding: 20px 50px;
+    border: none;
+    cursor: pointer;
+    margin: 120px;
+    } 
